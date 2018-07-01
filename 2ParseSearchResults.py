@@ -4,7 +4,7 @@ new_days = open(new_path, mode='r', encoding='utf-8')
 
 linesWithLink = []
 soldObjects = ''
-with open(new_path, 'r') as fin:
+with open(new_path, mode='r', encoding='utf-8') as fin:
     for line in fin:
         if line.__contains__('data-target-blank="true" href="https://www.hemnet.se/salda/'):
             startIndex = line.find("href=\"") + len('href=\"')
