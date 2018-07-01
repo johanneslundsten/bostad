@@ -1,6 +1,6 @@
 
 def getObject():
-    new_path = 'C:/git/bostad/analys/tmpObject.html'
+    new_path = 'tmpObject.html'
     return open(new_path, mode='r', encoding="utf-8").read()
 
 

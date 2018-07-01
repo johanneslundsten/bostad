@@ -12,7 +12,7 @@ while not content.__contains__(noMoreHits) and page < 200:
     content = response.text
     page = page + 1
 
-new_path = 'C:/git/bostadml/HemnetSearchResults2.html'
+new_path = 'HemnetSearchResults2.html'
 new_days = open(new_path, mode='w', encoding='utf-8')
 new_days.write(result)
 

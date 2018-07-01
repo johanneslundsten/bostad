@@ -1,5 +1,5 @@
 
-new_path = 'C:/git/bostadml/HemnetSearchResults2.html'
+new_path = 'HemnetSearchResults2.html'
 new_days = open(new_path, mode='r', encoding='utf-8')
 
 linesWithLink = []
@@ -13,7 +13,7 @@ with open(new_path, 'r') as fin:
 
 print(soldObjects)
 
-new_path = 'C:/git/bostadml/soldObjectsUrls.csv'
+new_path = 'soldObjectsUrls.csv'
 new_days = open(new_path, mode='w', encoding='utf-8')
 new_days.write(soldObjects)
 print("done")
